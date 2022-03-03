@@ -27,7 +27,7 @@ df_X_test_scaled = (df_X_test - df_X_test.mean(axis=0)) / df_X_test.std()
 plot_dataset(df_X_train_scaled, df_Y_train, 1)
 
 # Start doing gd and epochs
-bias, theta, gd_iterations_df = start(df_X_train_scaled, df_Y_train, 0.0005, 2000)
+bias, theta, gd_iterations_df = start(df_X_train_scaled, df_Y_train, 0.01, 500)
 
 mean = np.mean(df_Y)
 
