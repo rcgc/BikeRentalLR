@@ -1,5 +1,5 @@
 # Bike Rental Prediction Using Linear Regression
-Countries like Denmark, Netherlands, Sweden, Germany, Finland, Switzerland, and many more, are popular for encourage eco-friendly transportation: electric cars, bycicle rental services, trolley cars, and so on.
+Countries like Denmark, Netherlands, Sweden, Germany, Finland, Switzerland, and many more, are popular for encourage eco-friendly transportation among society: electric cars, bycicle rental services, trolley cars, and so on.
 
 This case study will be focused on how variables like feeling temperature and byke rentals are related to each other, i.e., how byke rentals increase or decrease according to variations in feeling temperature.
 
