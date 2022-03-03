@@ -153,3 +153,4 @@ def start(df_X, df_Y, learning_rate, epochs):
     print("Final Bias: ", b, " Final Theta: ", theta)
 
     return b, theta, gd_iterations_df
+
