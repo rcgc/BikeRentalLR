@@ -13,7 +13,7 @@ This case study will be focused on how variables like feeling temperature and bi
 <p><b>Image 2. </b>Linear regression</p><br><br>
 
 ## How to use it
-- open a console
+- open a console and place on project directory
 - run `python main.py` <br><br>
 
 For predictions it will ask:
