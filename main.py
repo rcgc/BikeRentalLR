@@ -37,9 +37,9 @@ print("MSE in training: ", mse_train/730)
 print("Coefficient of regression in training: ", R_train)
 
 # Coefficient of regression in testing
-mse_test, R_test = coefficient_of_regression(df_X_test_scaled, df_Y_test, bias, theta, mean)
-print("MSE in testing: ", mse_test/730)
-print("Coefficient of regression in testing: ", R_test)
+# mse_test, R_test = coefficient_of_regression(df_X_test_scaled, df_Y_test, bias, theta, mean)
+# print("MSE in testing: ", mse_test/730)
+# print("Coefficient of regression in testing: ", R_test)
 
 # Plotting Linear Regression
 plot_linear_regression(bias, theta, 1)

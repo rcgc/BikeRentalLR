@@ -132,14 +132,14 @@ def run_gradient_descent(X, Y, alpha, num_iterations):
     return gd_iterations_df, b, theta
 
 
-def start(df_X, df_Y, learning_rate, epochs):
+def start(df_X, df_Y, learning_rate, num_iterations):
     b, theta = initialize()
     print("Bias_0: ", b, " Theta_0: ", theta)
 
     X = df_X.to_numpy()
     Y = df_Y.to_numpy()
 
-    gd_iterations_df, b, theta = run_gradient_descent(X, Y, alpha=0.005, num_iterations=1000)
+    gd_iterations_df, b, theta = run_gradient_descent(X, Y, learning_rate, num_iterations)
     print(gd_iterations_df)
 
     plt.figure(2)
