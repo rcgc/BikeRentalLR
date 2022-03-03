@@ -5,7 +5,7 @@ This case study will be focused on how variables like feeling temperature and bi
 
 ## How to use it
 - open a console
-- run `python main.py`
+- run `python main.py` <br>
 For predictions it will as:
 - Do you wank to make predictions?
 - How many predictions?
