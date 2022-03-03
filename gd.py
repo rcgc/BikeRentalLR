@@ -65,7 +65,7 @@ def make_predictions(bias, theta, figure_number, mean, stddev):
 
         option = int(input())
 
-        if (option == 1):
+        if option == 1:
             break
 
         n = int(input("How many integers : "))
